@@ -1,0 +1,14 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="ink" x="-50%" y="-50%" width="200%" height="200%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.012" numOctaves="2" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="60"/>
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="#FAF7F1"/>
+  <g filter="url(#ink)" fill="#201C18">
+    <circle cx="256" cy="256" r="120"/>
+    <circle cx="330" cy="180" r="46"/>
+  </g>
+</svg>

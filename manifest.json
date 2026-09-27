@@ -1,0 +1,23 @@
+{
+  "name": "Archives",
+  "short_name": "Archives",
+  "description": "Retrouve, trie et enrichis ce que tu as sauvegardé sur Instagram.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#FAF7F1",
+  "theme_color": "#FAF7F1",
+  "orientation": "portrait",
+  "icons": [
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ],
+  "share_target": {
+    "action": "./index.html",
+    "method": "GET",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  }
+}
